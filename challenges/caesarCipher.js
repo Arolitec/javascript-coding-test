@@ -15,5 +15,15 @@
  * @returns {string}
  */
 export default function caesarCipher(str, shiftCount) {
-  // Write your code here.
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz'
+  const shiftedAlphabet = alphabet.slice(shiftCount) + alphabet.slice(0, shiftCount)
+  const shiftedStr = str.split('').map(char => {
+    const charIndex = alphabet.split('')
+      .findIndex(item => char === item || char === item.toUpperCase())
+    if (charIndex === -1) {
+      return char
+    }
+    return char.charCodeAt(0) > 90 ? shiftedAlphabet[charIndex] : shiftedAlphabet[charIndex].toUpperCase()
+  })
+  return shiftedStr.join('')
 }

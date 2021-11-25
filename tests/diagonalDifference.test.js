@@ -6,7 +6,7 @@ describe('diagonalDifference', () => {
       [1, 2, 3],
       [4, 5, 6],
       [7, 8, 9]
-    ])).toBe(2)
+    ])).toBe(0)
   })
   test('it should return matrix\'s diagonal absolute difference', () => {
     expect(diagonalDifference([

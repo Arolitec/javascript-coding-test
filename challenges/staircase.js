@@ -17,5 +17,9 @@
  * @returns {string}
  */
 export default function staircase(n) {
-  // Write your code here
+  let result = ''
+  for (let i = 0; i < n; i++) {
+    result += ' '.repeat(n - i - 1) + '#'.repeat(i + 1) + `${i === n - 1 ? '' : '\n'}`
+  }
+  return result
 }
