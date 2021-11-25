@@ -3,7 +3,7 @@ import arrayScore from '../challenges/arrayScore'
 
 describe('arrayScore', () => {
   test('should return the correct score of an array of numbers', () => {
-    expect(arrayScore([2, 3, 5, 4, 1])).toBe(9)
+    expect(arrayScore([2, 3, 5, 4, 1])).toBe(13)
   })
   test('should return the correct score of an array of numbers', () => {
     expect(arrayScore([5, 5, 5])).toBe(15)
