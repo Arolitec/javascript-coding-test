@@ -19,7 +19,7 @@ export default function caesarCipher(str, shiftCount) {
   const shiftedAlphabet = alphabet.slice(shiftCount) + alphabet.slice(0, shiftCount)
   const shiftedStr = str.split('').map(char => {
     const charIndex = alphabet.split('')
-      .findIndex(item => char === item || char === item.toUpperCase())
+      .findIndex(alphabetChar => char === alphabetChar || char === alphabetChar.toUpperCase())
     if (charIndex === -1) {
       return char
     }
