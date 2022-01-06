@@ -14,5 +14,5 @@
  * @return {arr}
  */
 export default function removeLeftMostDuplicate(arr) {
-  // Write your code here
+  return arr.filter((item, index) => arr.lastIndexOf(item) === index)
 }

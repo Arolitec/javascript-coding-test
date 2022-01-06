@@ -27,5 +27,15 @@
  * @return {arr}
  */
 export default function switchSwitches(switchesCount) {
-  // Write your code here
+  let switchesArr = Array(switchesCount).fill(false)
+
+  for (let step = 1; step <= switchesCount - 1; step++) {
+    for (let j = step; j < switchesCount; j += step + 1) {
+      switchesArr[j] = !switchesArr[j]
+    }
+  }
+
+  return switchesArr
+    .map((s, index) => (s ? null : index + 1))
+    .filter((item) => !!item)
 }
