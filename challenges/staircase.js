@@ -1,4 +1,6 @@
 /**
+ * 3 POINTS
+ *
  * This is a staircase of size _n=4_:
  * ```shell
  *    #

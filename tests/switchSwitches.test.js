@@ -1,6 +1,6 @@
 import switchSwitches from "../challenges/swtchSwitches"
 
-describe("switchSwitches", () => {
+describe("[8 points]switchSwitches", () => {
   it("should return [1] when calling switchSwitches(1)", () => {
     expect(switchSwitches(1)).toEqual([1])
   })
