@@ -1,4 +1,6 @@
 /**
+ * 6 POINTS
+ *
  * Given an array of integers, remove the left most duplicate and return the new array.
  *
  * Examples:

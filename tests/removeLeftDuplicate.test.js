@@ -1,6 +1,6 @@
 import removeLeftMostDuplicate from "../challenges/removeLeftMostDuplicate"
 
-describe("removeLeftDuplicate", () => {
+describe("[6 points]removeLeftDuplicate", () => {
   it("should return [4,6,3] when calling removeLeftDuplicate([3,4,4,3,6,3])", () => {
     expect(removeLeftMostDuplicate([3, 4, 4, 3, 6, 3])).toEqual([4, 6, 3])
   })

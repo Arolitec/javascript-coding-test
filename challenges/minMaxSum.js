@@ -1,4 +1,6 @@
 /**
+ * 2 POINTS
+ *
  * Given five positive integers, find the minimum and maximum values that
  * can be calculated by summing exactly four of the five integers.
  * Then return the respective minimum and maximum values in an array

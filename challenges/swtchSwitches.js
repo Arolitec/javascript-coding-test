@@ -1,4 +1,6 @@
 /**
+ * 8 POINTS
+ *
  * Bernard Kouadio is a custodian at a local data center.
  * As he suspected, Bernard recently found out he is to be fired on his birthday
  * after years of pouring his soul into maintaining the facility. Bobsworth, however, has other plans.

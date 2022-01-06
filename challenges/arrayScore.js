@@ -1,4 +1,6 @@
 /**
+ * 2 POINTS
+ *
  * Given an array of integers, keep a total score based on the following:
  * 1.	Add 1 point for every even number in the array
  * 2.	Add 3 points for every odd number in the array, except for the number "5"
@@ -17,15 +19,15 @@
  * @return {number}
  */
 export default function arrayScore(arr) {
-  let score = 0;
+  let score = 0
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 === 0) {
-      score += 1;
+      score += 1
     } else if (arr[i] !== 5) {
-      score += 3;
+      score += 3
     } else {
-      score += 5;
+      score += 5
     }
   }
-  return score;
+  return score
 }

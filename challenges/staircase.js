@@ -1,4 +1,6 @@
 /**
+ * 3 POINTS
+ *
  * This is a staircase of size _n=4_:
  * ```shell
  *    #
@@ -17,9 +19,10 @@
  * @returns {string}
  */
 export default function staircase(n) {
-  let result = ''
+  let result = ""
   for (let i = 0; i < n; i++) {
-    result += ' '.repeat(n - i - 1) + '#'.repeat(i + 1) + `${i === n - 1 ? '' : '\n'}`
+    result +=
+      " ".repeat(n - i - 1) + "#".repeat(i + 1) + `${i === n - 1 ? "" : "\n"}`
   }
   return result
 }
